@@ -1,7 +1,7 @@
 {
-  "name": "Snippets",
-  "displayName": "Snippets",
-  "description": "Snippets",
+  "name": "Dream Code Snippets",
+  "displayName": "Dream Code Snippets",
+  "description": "Code snippet, to increase productivity",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.66.0"
