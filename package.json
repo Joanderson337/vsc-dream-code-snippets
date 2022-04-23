@@ -23,27 +23,39 @@
     "snippets": [
       {
         "language": "javascript",
-        "path": "./src/snippets/snippets.json"
+        "path": "./src/snippets/vtex.snippets.json"
       },
       {
         "language": "typescript",
-        "path": "./src/snippets/snippets.json"
+        "path": "./src/snippets/vtex.snippets.json"
       },
       {
         "language": "javascriptreact",
-        "path": "./src/snippets/snippets.json"
+        "path": "./src/snippets/vtex.snippets.json"
       },
       {
         "language": "typescriptreact",
-        "path": "./src/snippets/snippets.json"
+        "path": "./src/snippets/vtex.snippets.json"
       },
       {
-        "language": "html",
-        "path": "./src/snippets/snippets.json"
+        "language": "javascript",
+        "path": "./src/snippets/react.snippets.json"
       },
       {
-        "language": "vue",
-        "path": "./src/snippets/snippets.json"
+        "language": "typescript",
+        "path": "./src/snippets/react.snippets.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./src/snippets/react.snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./src/snippets/react.snippets.json"
+      },
+      {
+        "language": "css",
+        "path": "./src/snippets/css.snippets.json"
       }
     ]
   },

@@ -57,11 +57,11 @@
       "       }",
       "     }",
       "   }",
-      "}", 
-      "", 
+      "}",
+      "",
       "export default ${1:${TM_FILENAME_BASE}}"
     ],
-    "description": "Creates a React Functional Component with ES7 module system and TypeScript interface",
+    "description": "Creates a React Functional of type StoreFC with defaults Vtex",
     "scope": "typescript,typescriptreact,javascript,javascriptreact"
   },
   "vtex.storefcgql": {
@@ -133,11 +133,11 @@
       "       }",
       "     }",
       "   }",
-      "}", 
-      "", 
+      "}",
+      "",
       "export default ${1:${TM_FILENAME_BASE}}"
     ],
-    "description": "Creates a React Functional Component with ES7 module system and TypeScript interface",
+    "description": "Creates a React Functional of type StoreFC with defaults Vtex and GQL query",
     "scope": "typescript,typescriptreact,javascript,javascriptreact"
   },
   "vtex.schema": {
@@ -176,41 +176,7 @@
       "   }",
       "}"
     ],
-    "description": "Creates a React Functional Component with ES7 module system and TypeScript interface",
-    "scope": "typescript,typescriptreact,javascript,javascriptreact"
-  },
-  "react.fc": {
-    "key": "react.fc",
-    "prefix": "react.fc",
-    "body": [
-      "import classnames from 'classnames'",
-      "import { FC } from 'react'",
-      "import { useCssHandles } from 'vtex.css-handles'",
-      "",
-      "// import './styles.css'",
-      "",
-      "const CSS_HANDLES = [",
-      "  'my__react__fc__component',",
-      "  'my__react__fc__component__container',",
-      "]",
-      "",
-      "interface ${1:${TM_FILENAME_BASE}}Props {",
-      "// my component props",
-      "}",
-      "",
-      "const ${1:${TM_FILENAME_BASE}}: FC<${1:${TM_FILENAME_BASE}}Props> = () => {",
-      "  const handles = useCssHandles<string[]>(CSS_HANDLES)",
-      "",
-      "  return (",
-      "     <div className={handles['my__store__fc__component']}>",
-      "        <span>My React FC Component.</span>",
-      "     </div>",
-      "  );",
-      "}",
-      "", 
-      "export default ${1:${TM_FILENAME_BASE}}"
-    ],
-    "description": "Creates a React Functional Component with ES7 module system and TypeScript interface",
+    "description": "Creates a schema structure for SiteEditor Vtex",
     "scope": "typescript,typescriptreact,javascript,javascriptreact"
   }
 }
