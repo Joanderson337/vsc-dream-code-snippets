@@ -1,5 +1,5 @@
 {
-  "name": "Dream Code Snippets",
+  "name": "snippets",
   "displayName": "Dream Code Snippets",
   "description": "Code snippet, to increase productivity",
   "version": "0.0.1",
@@ -79,5 +79,16 @@
     "mocha": "^9.2.2",
     "typescript": "^4.5.5",
     "@vscode/test-electron": "^2.1.3"
-  }
+  },
+  "publisher": "Leonardo Leles and Joanderson Silva",
+  "icon": "assets/icon.png",
+  "galleryBanner": {
+    "color": "#030518",
+    "theme": "dark"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "json"
+  ]
 }
