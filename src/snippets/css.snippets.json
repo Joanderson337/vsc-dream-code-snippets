@@ -1,0 +1,30 @@
+{
+  "css.mfirst": {
+    "key": "css.mfirst",
+    "prefix": "css.mfirst",
+    "body": [
+      "/* mobile */",
+      ".my__mfirst__styles {}",
+      "",
+      "/* tablets, ipads */",
+      "@media (min-width: 768px) {}",
+      "",
+      "/* tablet */",
+      "@media (min-width: 960px) {}",
+      "",
+      "/* desktop */",
+      "@media (min-width: 1025px) {}"
+    ],
+    "description": "Creates a structure for mobile first",
+    "scope": "css"
+  },
+  "css.minmedia": {
+    "key": "css.media",
+    "prefix": "css.media",
+    "body": [
+      "@media (min-width: ${1:first}) {}"
+    ],
+    "description": "Creates a min-width media for CSS",
+    "scope": "css"
+  }
+}

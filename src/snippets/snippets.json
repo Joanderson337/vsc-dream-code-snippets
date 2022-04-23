@@ -1,7 +1,0 @@
-{
-  "import": {
-    "prefix": "olamundo",
-    "body": "olá mundo",
-    "description": "Imports entire module statement in ES6 syntax"
-  }
-}
