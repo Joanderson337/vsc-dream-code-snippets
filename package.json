@@ -1,5 +1,5 @@
 {
-  "name": "snippets",
+  "name": "dream-code-snippets",
   "displayName": "Dream Code Snippets",
   "description": "Code snippet, to increase productivity",
   "version": "0.0.1",
@@ -9,9 +9,7 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [
-    "onCommand:Snippets.helloWorld"
-  ],
+  "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
@@ -89,6 +87,8 @@
   "keywords": [
     "react",
     "typescript",
+    "dream",
+    "css",
     "json"
   ]
 }
