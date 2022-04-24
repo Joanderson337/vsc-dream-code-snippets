@@ -30,8 +30,7 @@
       "",
       "export default ${1:${TM_FILENAME_BASE}}"
     ],
-    "description": "Creates a React Functional Component with defaults Vtex",
-    "scope": "typescript,typescriptreact,javascript,javascriptreact"
+    "description": "Creates a React Functional Component with defaults Vtex"
   },
   "react.tscontext": {
     "key": "react.tscontext",
@@ -71,7 +70,6 @@
       "",
       "export default MyReactContextProvider"
     ],
-    "description": "Creates a React Context with Typescript",
-    "scope": "typescript,typescriptreact,javascript,javascriptreact"
+    "description": "Creates a React Context with Typescript"
   }
 }
