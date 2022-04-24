@@ -1,5 +1,5 @@
 {
-  "name": "snippets",
+  "name": "dream-code-snippets",
   "displayName": "Dream Code Snippets",
   "description": "Code snippet, to increase productivity",
   "version": "0.0.1",
@@ -7,19 +7,11 @@
     "vscode": "^1.66.0"
   },
   "categories": [
-    "Other"
+    "Snippets"
   ],
-  "activationEvents": [
-    "onCommand:Snippets.helloWorld"
-  ],
+  "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [
-      {
-        "command": "Snippets.helloWorld",
-        "title": "Hello World"
-      }
-    ],
     "snippets": [
       {
         "language": "javascript",
@@ -80,7 +72,7 @@
     "typescript": "^4.5.5",
     "@vscode/test-electron": "^2.1.3"
   },
-  "publisher": "Leonardo Leles and Joanderson Silva",
+  "publisher": "Leonardo-Joanderson",
   "icon": "assets/icon.png",
   "galleryBanner": {
     "color": "#030518",
@@ -89,6 +81,15 @@
   "keywords": [
     "react",
     "typescript",
+    "dream",
+    "css",
     "json"
-  ]
+  ],
+  "repository": {
+    "url": "https://github.com/Joanderson337/vsc-dream-code-snippets-"
+  },
+  "homepage": "https://github.com/Joanderson337/vsc-dream-code-snippets-",
+  "bugs": {
+    "url": "https://github.com/Joanderson337/vsc-dream-code-snippets-/issues"
+  }
 }

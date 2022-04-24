@@ -61,8 +61,7 @@
       "",
       "export default ${1:${TM_FILENAME_BASE}}"
     ],
-    "description": "Creates a React Functional of type StoreFC with defaults Vtex",
-    "scope": "typescript,typescriptreact,javascript,javascriptreact"
+    "description": "Creates a React Functional of type StoreFC with defaults Vtex"
   },
   "vtex.storefcgql": {
     "key": "vtex.storefcgql",
@@ -176,7 +175,6 @@
       "   }",
       "}"
     ],
-    "description": "Creates a schema structure for SiteEditor Vtex",
-    "scope": "typescript,typescriptreact,javascript,javascriptreact"
+    "description": "Creates a schema structure for SiteEditor Vtex"
   }
 }
