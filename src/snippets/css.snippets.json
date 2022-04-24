@@ -15,8 +15,7 @@
       "/* desktop */",
       "@media (min-width: 1025px) {}"
     ],
-    "description": "Creates a structure for mobile first",
-    "scope": "css"
+    "description": "Creates a structure for mobile first"
   },
   "css.minmedia": {
     "key": "css.media",
@@ -24,7 +23,6 @@
     "body": [
       "@media (min-width: ${1:first}) {}"
     ],
-    "description": "Creates a min-width media for CSS",
-    "scope": "css"
+    "description": "Creates a min-width media for CSS"
   }
 }
