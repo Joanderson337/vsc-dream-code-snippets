@@ -7,7 +7,7 @@
     "vscode": "^1.66.0"
   },
   "categories": [
-    "Other"
+    "Snippets"
   ],
   "activationEvents": [],
   "main": "./out/extension.js",
