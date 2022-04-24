@@ -9,17 +9,9 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [
-    "onCommand:Snippets.helloWorld"
-  ],
+  "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [
-      {
-        "command": "Snippets.helloWorld",
-        "title": "Hello World"
-      }
-    ],
     "snippets": [
       {
         "language": "javascript",
@@ -89,6 +81,8 @@
   "keywords": [
     "react",
     "typescript",
+    "dream",
+    "css",
     "json"
   ],
   "repository": {
