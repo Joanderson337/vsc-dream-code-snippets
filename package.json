@@ -1,5 +1,5 @@
 {
-  "name": "dream",
+  "name": "dream-code-snippets",
   "displayName": "Dream Code Snippets",
   "description": "Code snippet, to increase productivity",
   "version": "0.0.1",
@@ -80,7 +80,7 @@
     "typescript": "^4.5.5",
     "@vscode/test-electron": "^2.1.3"
   },
-  "publisher": "LeonardoJoanderson",
+  "publisher": "Leonardo-Joanderson",
   "icon": "assets/icon.png",
   "galleryBanner": {
     "color": "#030518",
